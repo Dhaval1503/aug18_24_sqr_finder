@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Square finder App</title>
+		<link rel="stylesheet"		href="mystyle.css"/>
+	</head>
+	<body>
+		<center>
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+			</div>
+				<h1>Result Page</h1>
+				<h2 id="msg">
+				<script>
+					let msg=document.getElementById("msg");
+					let r=localStorage.getItem("result");
+					msg.innerHTML=r;
+
+				</script>
+		</center>
+	</body>
+</html>
